@@ -1,6 +1,10 @@
 from fastapi import FastAPI, HTTPException
 import pyodbc
 
+#DB_SERVER = 'mist-kenney.database.windows.net'
+#DB_DATABASE = 'MIST460_RelationalDatabase_Kenney'
+#DB_DRIVER = '{ODBC Driver 17 for SQL Server}'
+
 DB_SERVER = 'localhost\\BRAXTONS-LAPTOP'
 DB_DATABASE = 'MIST460_RelationalDatabase_Lastname'
 DB_DRIVER = '{ODBC Driver 17 for SQL Server}'

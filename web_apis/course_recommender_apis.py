@@ -1,5 +1,10 @@
 from fastapi import FastAPI, HTTPException
 import pyodbc
+from validate_user import validate_user
+from find_current_semester_course_offerings import find_current_semester_course_offerings
+from find_prerequisites import find_current_prerequisites
+from check_if_student_has_taken_all_prerequisites_for_course import check_if_student_has_taken_all_prerequisites_for_course
+from get_student_enrolled_course_offerings import get_student_enrolled_course_offerings
 
 app = FastAPI()
 
